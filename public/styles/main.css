@@ -1,0 +1,249 @@
+body {
+  background-color: #030303;
+  font-family: "Open Sans", sans-serif;
+}
+
+#create-edit {
+  height: 100%;
+}
+
+.content {
+  background-color: #1a1a1b;
+  color: #d6d9db;
+  border-radius: 20px;
+}
+
+.content ul {
+  list-style: none;
+}
+
+.content a {
+  color: #d6d9db;
+}
+
+.content a:hover {
+  color: #88939b;
+}
+
+.pt-serif {
+  font-family: "PT Serif", serif;
+}
+
+footer a {
+  color: #d6d9db !important;
+}
+
+.button-rad {
+  border-radius: 30px;
+}
+
+.dark-form {
+  background-color: #1a1a1b;
+  color: white !important;
+}
+.dark-form::placeholder {
+  color: #d7dadc;
+}
+.dark-form:focus {
+  background-color: #1a1a1b;
+  border-color: #88939b;
+}
+
+.content-hidden {
+  display: none;
+}
+
+.navbar-brand {
+  color: black;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+#navbarNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+#aside {
+  background-color: white;
+}
+
+#aside > div.px-3 > p {
+  color: #030303;
+}
+#aside > div.px-3 > ul > li:nth-child(1) > h3 > a {
+  color: #030303;
+}
+#aside > div.px-3 > ul > li:nth-child(2) > h3 > a {
+  color: #030303;
+}
+#aside > div.text-center.my-4 > a > button {
+  background-color: black;
+  color: white;
+}
+body > div > div > div > div.content.col-12.col-xxl-8.col-xl-8.p-4 {
+  background-color: white;
+}
+body
+  > div
+  > div
+  > div
+  > div.content.col-12.col-xxl-8.col-xl-8.p-4
+  > ul
+  > li:nth-child(1)
+  > h3 {
+  color: black;
+}
+body
+  > div
+  > div
+  > div
+  > div.content.col-12.col-xxl-8.col-xl-8.p-4
+  > ul
+  > li:nth-child(1)
+  > button {
+  background-color: black;
+  color: white;
+}
+body
+  > div
+  > div
+  > div
+  > div.content.col-12.col-xxl-8.col-xl-8.p-4
+  > ul
+  > li:nth-child(2)
+  > h3body
+  > div
+  > div
+  > div
+  > div.content.col-12.col-xxl-8.col-xl-8.p-4
+  > ul
+  > li:nth-child(2)
+  > h3 {
+  color: black;
+}
+body
+  > div
+  > div
+  > div
+  > div.content.col-12.col-xxl-8.col-xl-8.p-4
+  > ul
+  > li:nth-child(2)
+  > button {
+  background-color: black;
+  color: white;
+}
+body
+  > div
+  > div
+  > div
+  > div.content.col-12.col-xxl-8.col-xl-8.p-4
+  > ul
+  > li:nth-child(1)
+  > h3
+  > a {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+}
+body
+  > div
+  > div
+  > div
+  > div.content.col-12.col-xxl-8.col-xl-8.p-4
+  > ul
+  > li:nth-child(2)
+  > h3
+  > a {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+}
+body
+  > div
+  > div
+  > div
+  > div.content.col-12.col-xxl-8.col-xl-8.p-4
+  > ul
+  > li:nth-child(2)
+  > p {
+  color: black;
+}
+body
+  > div
+  > div
+  > div
+  > div.content.col-12.col-xxl-8.col-xl-8.p-4
+  > ul
+  > li:nth-child(1)
+  > p {
+  color: black;
+}
+hr {
+  color: #4b4a4a;
+}
+
+body > nav > div > a {
+  color: black;
+}
+
+#create-edit\ min-vh-100
+  > div
+  > div
+  > div.content.col-12.col-xxl-8.col-xl-8.p-4.p-4
+  > h1 {
+  color: #030303;
+}
+
+#create-edit\ min-vh-100
+  > div
+  > div
+  > div.col-2.content.ms-5.p-3.d-none.d-lg-none.d-md-none.d-sm-none.d-xl-block
+  > p {
+  background-color: white;
+  color: #030303;
+}
+
+.makeitblack {
+  text-decoration: none;
+  color: #030303;
+}
+
+body
+  > div
+  > div
+  > div
+  > div.content.col-12.col-xxl-8.col-xl-8.p-4
+  > ul
+  > li
+  > h3
+  > a {
+  text-decoration: none;
+  color: #030303;
+}
+
+#aside > div.px-3 > ul > li > h3 > a {
+    text-decoration: none;
+    color: #030303;
+}
+
+body > div > div > div > div.content.col-lg-8.col-12.p-4{
+    background-color: white;
+    color: #030303;
+}
+
+body > div > div > div > div.content.col-lg-2.col-8.my-4.mx-4.p-4.text-center{
+    background-color: white;
+    color: #030303;
+}
+

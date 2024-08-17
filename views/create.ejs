@@ -1,0 +1,43 @@
+<%- include('partials/header.ejs') %>
+<div id="create-edit min-vh-100" class="my-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="content col-12 col-xxl-8 col-xl-8 p-4 p-4">
+        <% if (locals.postId) { %>
+          <h1 class="pt-serif">Edit Post</h1>
+        <% } else { %>
+          <h1 class="pt-serif">Create Post</h1>
+        <% } %>
+        <form action="/create-or-update" method="post">
+          <input
+            class="form-control light-form my-4"
+            type="text"
+            name="title"
+            placeholder="Title"
+            value="<%= title %>"
+            required
+          />
+          <textarea
+            class="form-control light-form"
+            name="content"
+            id="content"
+            cols="30"
+            rows="18"
+            placeholder="Content"
+            style="resize: none"
+          ><%= content %></textarea>
+          <!-- Hidden input field to differentiate between create and edit actions -->
+          <input hidden type="text" name="postId" value="<%= postId %>" />
+          <div class="text-end m-1">
+            <input
+              class="btn btn-light fs-5 btn-lg my-4 button-rad"
+              type="submit"
+              value="<%= locals.postId ? 'Update Post' : 'Create Post' %>"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<%- include("partials/footer.ejs") %>
